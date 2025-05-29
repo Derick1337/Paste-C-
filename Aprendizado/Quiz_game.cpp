@@ -35,5 +35,6 @@ int main(){
             }
         }
     std::cout << "You scored " << score << " out of " << size << ".\n";
+    std::cout << "Score " << (score/size)*100 << "%\n";
 return 0;
 }
